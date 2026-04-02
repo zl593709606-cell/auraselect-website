@@ -25,18 +25,7 @@ export function Nav({ onDownloadClick }: NavProps) {
       >
         {/* Logo */}
         <a href="#" className="flex items-center gap-2.5 shrink-0">
-          <div
-            className="w-7 h-7 rounded-lg flex items-center justify-center"
-            style={{
-              background: 'linear-gradient(135deg, #5AB5AE, #3D9A93)',
-              boxShadow: '0 2px 8px rgba(90,181,174,0.3)',
-            }}
-          >
-            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-              <path d="M8 2L14 5.5V10.5L8 14L2 10.5V5.5L8 2Z" stroke="white" strokeWidth="1.5" strokeLinejoin="round" />
-              <circle cx="8" cy="8" r="2" fill="white" />
-            </svg>
-          </div>
+          <img src="/logo.png" alt="AuraSelect" className="w-8 h-8 rounded-lg object-cover" />
           <span className="text-base font-bold tracking-tight text-navy">AuraSelect</span>
         </a>
 

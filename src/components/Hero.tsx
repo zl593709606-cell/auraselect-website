@@ -72,12 +72,7 @@ export function Hero({ onMacDownload, onWinDownload }: HeroProps) {
           </div>
 
           {/* Version note */}
-          <p className="text-xs text-slate-400">
-            {s(t.hero.note)}
-            <a href="#changelog" className="text-teal hover:underline">
-              {s(t.hero.changelog)}
-            </a>
-          </p>
+          <p className="text-xs text-slate-400">{s(t.hero.note)}</p>
         </div>
 
         {/* Right: ShuffleGrid */}
