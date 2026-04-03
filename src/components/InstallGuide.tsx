@@ -9,13 +9,13 @@ export function InstallGuide() {
   const steps = t.install.steps
 
   return (
-    <section id="install" className="py-24 bg-white">
+    <section id="install" className="py-32 bg-white">
       <div className="mx-auto px-10" style={{ maxWidth: '1200px' }}>
-        <div className="text-center mb-16">
-          <p className="text-xs font-semibold tracking-widest uppercase mb-3" style={{ color: '#5AB5AE' }}>
+        <div className="text-center mb-20">
+          <p className="text-sm font-semibold tracking-widest uppercase mb-4" style={{ color: '#5AB5AE' }}>
             {s(t.install.label)}
           </p>
-          <h2 className="text-4xl font-extrabold text-navy" style={{ letterSpacing: '-0.025em' }}>
+          <h2 className="text-5xl font-extrabold text-navy" style={{ letterSpacing: '-0.025em' }}>
             {s(t.install.title)}
           </h2>
         </div>

@@ -17,7 +17,7 @@ export function Hero({ onMacDownload, onWinDownload }: HeroProps) {
       <LightRays />
       <div
         className="relative z-10 mx-auto grid grid-cols-2 items-center gap-16"
-        style={{ maxWidth: '1200px', padding: '60px 40px 80px' }}
+        style={{ maxWidth: '1200px', padding: '80px 40px 100px' }}
       >
         {/* Left: text */}
         <div className="flex flex-col">

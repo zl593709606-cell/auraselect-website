@@ -9,16 +9,16 @@ export function Privacy() {
   const cards = t.privacy.cards
 
   return (
-    <section id="privacy" className="py-24" style={{ background: '#1B2B3A' }}>
+    <section id="privacy" className="py-32" style={{ background: '#1B2B3A' }}>
       <div className="mx-auto px-10" style={{ maxWidth: '1200px' }}>
-        <div className="text-center mb-14">
-          <p className="text-xs font-semibold tracking-widest uppercase mb-3" style={{ color: '#5AB5AE' }}>
+        <div className="text-center mb-16">
+          <p className="text-sm font-semibold tracking-widest uppercase mb-4" style={{ color: '#5AB5AE' }}>
             {s(t.privacy.label)}
           </p>
-          <h2 className="text-4xl font-extrabold text-white mb-4" style={{ letterSpacing: '-0.025em' }}>
+          <h2 className="text-5xl font-extrabold text-white mb-5" style={{ letterSpacing: '-0.025em' }}>
             {s(t.privacy.title)}
           </h2>
-          <p className="text-base" style={{ color: 'rgba(255,255,255,0.55)' }}>
+          <p className="text-lg" style={{ color: 'rgba(255,255,255,0.55)' }}>
             {s(t.privacy.sub)}
           </p>
         </div>

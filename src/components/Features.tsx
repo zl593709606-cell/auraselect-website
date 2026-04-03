@@ -18,17 +18,17 @@ export function Features() {
   const items = t.features.items
 
   return (
-    <section id="features" className="py-24" style={{ background: '#FAFBFF' }}>
+    <section id="features" className="py-32" style={{ background: '#FAFBFF' }}>
       <div className="mx-auto px-10" style={{ maxWidth: '1200px' }}>
         {/* Header */}
-        <div className="text-center mb-14">
-          <p className="text-xs font-semibold tracking-widest uppercase mb-3" style={{ color: '#5AB5AE' }}>
+        <div className="text-center mb-16">
+          <p className="text-sm font-semibold tracking-widest uppercase mb-4" style={{ color: '#5AB5AE' }}>
             {s(t.features.label)}
           </p>
-          <h2 className="text-4xl font-extrabold text-navy mb-4" style={{ letterSpacing: '-0.025em' }}>
+          <h2 className="text-5xl font-extrabold text-navy mb-5" style={{ letterSpacing: '-0.025em' }}>
             {s(t.features.title)}
           </h2>
-          <p className="text-base text-slate-500">{s(t.features.sub)}</p>
+          <p className="text-lg text-slate-500">{s(t.features.sub)}</p>
         </div>
 
         {/* Two-column: cards left, image right */}

@@ -9,13 +9,13 @@ export function FAQ() {
   const items = t.faq.items
 
   return (
-    <section id="faq" className="py-24" style={{ background: '#FAFBFF' }}>
+    <section id="faq" className="py-32" style={{ background: '#FAFBFF' }}>
       <div className="mx-auto px-10" style={{ maxWidth: '1200px' }}>
-        <div className="text-center mb-14">
-          <p className="text-xs font-semibold tracking-widest uppercase mb-3" style={{ color: '#5AB5AE' }}>
+        <div className="text-center mb-16">
+          <p className="text-sm font-semibold tracking-widest uppercase mb-4" style={{ color: '#5AB5AE' }}>
             {s(t.faq.label)}
           </p>
-          <h2 className="text-4xl font-extrabold text-navy" style={{ letterSpacing: '-0.025em' }}>
+          <h2 className="text-5xl font-extrabold text-navy" style={{ letterSpacing: '-0.025em' }}>
             {s(t.faq.title)}
           </h2>
         </div>

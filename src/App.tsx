@@ -41,9 +41,9 @@ export default function App() {
       <main className="pt-16">
         <Hero onMacDownload={handleMacDownload} onWinDownload={handleWinDownload} />
         <Features />
-        <Download onMacDownload={handleMacDownload} onWinDownload={handleWinDownload} />
         <Privacy />
         <InstallGuide />
+        <Download onMacDownload={handleMacDownload} onWinDownload={handleWinDownload} />
         <FAQ />
       </main>
 

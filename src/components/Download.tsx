@@ -13,17 +13,17 @@ export function Download({ onMacDownload, onWinDownload }: DownloadProps) {
   const isCn = lang === 'zh'
 
   return (
-    <section id="download" className="py-24 bg-white">
+    <section id="download" className="py-32 bg-white">
       <div className="mx-auto px-10" style={{ maxWidth: '1200px' }}>
-        <div className="text-center mb-14">
-          <p className="text-xs font-semibold tracking-widest uppercase mb-3" style={{ color: '#5AB5AE' }}>
+        <div className="text-center mb-16">
+          <p className="text-sm font-semibold tracking-widest uppercase mb-4" style={{ color: '#5AB5AE' }}>
             {s(t.nav.download)}
           </p>
-          <h2 className="text-4xl font-extrabold text-navy mb-4" style={{ letterSpacing: '-0.025em' }}>
+          <h2 className="text-5xl font-extrabold text-navy mb-5" style={{ letterSpacing: '-0.025em' }}>
             {isCn ? '立即下载，免费体验' : 'Download Free'}
           </h2>
-          <p className="text-base text-slate-500">
-            {isCn ? '支持 macOS 12+ 和 Windows 10/11，无需注册即可使用' : 'Supports macOS 12+ and Windows 10/11. No account required.'}
+          <p className="text-lg text-slate-500">
+            {isCn ? '支持 macOS 12+ 和 Windows 10/11' : 'Supports macOS 12+ and Windows 10/11. No account required.'}
           </p>
         </div>
 
